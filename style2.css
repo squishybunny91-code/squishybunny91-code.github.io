@@ -1,0 +1,59 @@
+* Apply style to entire page using single selector */
+body {
+font-family: cursive;
+background-color: pink;
+color: #222222;
+font-size: 24px;
+}
+
+/* Class selector used on multiple elements */
+.container {
+width: 80%;
+margin: auto;
+}
+
+/* Navigation */
+.nav a {
+margin-right: 15px;
+text-decoration: none;
+color: #0066cc;
+}
+
+/* Hover selector */
+.nav a:hover {
+color: #ff6600;
+}
+
+/* Hex color usage */
+.highlight {
+color: #ffffff;
+background-color: #336699;
+padding: 3px;
+}
+
+/* Images */
+.image {
+width: 250px;
+display: block;
+margin-bottom: 10px;
+}
+
+/* Cards */
+.card {
+background-color: #ffffff;
+padding: 15px;
+margin-bottom: 20px;
+}
+
+/* Floating element */
+.float-box {
+float: left;
+width: 300px;
+margin: 10px 20px 10px 0;
+background-color: #dddddd;
+padding: 10px;
+}
+
+.float-box img {
+width: 100%;
+}

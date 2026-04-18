@@ -1,0 +1,22 @@
+h1{
+    font-family: cursive;
+    font-size: large 50px;
+    color: black;
+}
+
+h2{
+    font-family: cursive;
+    font-size: large 50px;
+}
+body{
+    background-color: palegreen;
+    font-family: cursive;
+    font-size: medium 50px;
+    color: black;
+}
+
+p{
+    color: deeppink;
+}
+
+#myHeader{ color: deeppink}

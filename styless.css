@@ -1,0 +1,68 @@
+body{
+    background-color: black;
+    font-family:cursive;
+    font-size: large;
+    color: white;
+}
+    
+    
+h1{
+    color: lavenderblush;
+    font-size: 68px;
+    text-shadow: 5px 5px 6px grey;
+   padding: 8px;
+}
+
+div{
+    color:aquamarine;
+    display: flex;
+    flex-direction: column-reverse;
+    flex-wrap: wrap;
+    justify-content: space-between;
+    justify-content: center;
+    align-items: baseline;
+}
+
+table{
+    color: lightblue;
+    background-color: darkgrey;
+    border-radius: 8px;
+    box-shadow: 5px 5px 6px lavender;
+    text-shadow: lightgreen;
+    width: 100%;
+    text-shadow: 5px 5px 6px gray;
+
+}
+
+#music-table{
+   border: 2px solid var(lightblue);
+   text-align: center;
+   height: 200px;
+   width: 400px;
+   justify-content: space-between;
+
+}
+
+.favorite-songs:hover{
+   transform: translate(10px);
+   transform: scale(1.1);
+}
+
+#contact{
+    color: pink;
+    text-shadow: lavenderblush;
+}
+
+.nav{
+    float: right;
+    width: auto;
+    padding: 10px;
+    color:deeppink;
+}
+
+.image{
+    flex-direction: row;
+    width: 200px;
+    height: 300px;
+    justify-content:space-evenly;
+}

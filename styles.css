@@ -1,0 +1,125 @@
+
+body{
+    font: Sunshine, sans-serif;
+    background-color: RGB(252,242,201);
+}
+ .container {
+            display: flex;
+            align-items: center;
+        }
+        .container img {
+            width: 250px;
+            height: auto;
+            border-radius: 10px;
+        }
+footer {
+    text-align: center;
+}
+
+header{
+    text-align: center;
+}
+
+p{
+    text-align: center;
+}
+
+.food_pics{
+    display: flex;
+    justify-content: center;
+    gap: 10px;
+    flex-wrap: wrap;
+
+}
+
+.specials{
+    display: flex;
+    justify-content: center;
+    gap: 10px;
+    height: 400px;
+}
+
+#menu_description{
+    font-size: x-large;
+    font-family: cursive;
+    color: #C9A0DC;
+    text-shadow: 2px 2px 4px #CCCCFF;
+}
+
+@media (max-width: 600px){
+    footer{display: none;
+    }
+    .food_pics{
+        display: block;
+        text-align: center;
+        padding: 20px;
+    }
+}
+
+@media (min-width: 601px) and (max-width: 1024px){
+    .food_pics{
+        display: flex;
+        flex-direction: column;
+        gap: 20px;
+        flex-wrap: wrap;
+    }
+}
+
+@media all and (min-width: 800px){
+    .food_pics{
+        display: flex;
+        justify-content: center;
+        gap: 10px;
+        flex-wrap: wrap;
+    }
+}
+
+#description{
+    text-align: center;
+    padding: 20px;
+    color:skyblue;
+    font-family: cursive;
+    font-style: italic;
+}
+
+figcaption{
+    text-align: center;
+    font-size: large;
+    font-style: italic;
+    font-family: cursive;
+    color: #FF46A2;
+    text-decoration: wavy underline;
+    text-decoration-color: #80EF80;
+}
+nav{
+    display: flex;
+    justify-content: center;
+    gap: 20px;
+    padding: 10px;
+}
+
+a {
+    color: #FF46A2;
+    font-size: large;
+    font-family: cursive;
+    }
+
+a:hover {
+    color: #80EF80;
+    text-decoration: underline;
+}
+
+.text{
+    text-align: center;
+    font-size: xx-large;
+    font-family: cursive;
+    color: RGB(170,127,46);
+    text-shadow: 2px 2px 4px #FFDE21;
+}
+
+em{
+    color: #A47DAB;
+    font-size: large;
+    font-family: cursive;
+    text-decoration: dotted underline #FFDE21;
+}

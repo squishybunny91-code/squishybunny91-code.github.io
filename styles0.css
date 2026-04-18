@@ -1,0 +1,130 @@
+body{
+    background: #D4D7D4;
+    font-family: 'Anime Ace', sans-serif;
+    font-size: 16px;
+    text-transform: uppercase;
+    text-align: center;
+}
+
+header{
+    color: #E67D93;
+    font-family: 'Times New Roman';
+    font-style: bold;
+    text-align: center;
+    text-shadow: gray;
+}
+
+#Demonslayer_poster{
+    display:flex;
+}
+
+table{
+    text-align: center;
+    font-family: Cursive;
+    border: 2px solid;
+    border-collapse: collapse;
+}
+
+th,td{
+    border: 1px solid black;
+    padding: 8px;
+}
+
+td{
+    padding: 10px;
+}
+
+a{
+    font-style: italic;
+    font-size: medium;
+    font-family:Georgia;
+}
+#slayers{
+    color:black;
+}
+
+#slayers:hover{
+    filter: blur(1px) sepia(60%);
+}
+
+
+
+#demons{
+    color: #A7253F;
+}
+
+#demons:hover{
+    filter:blur(1px) sepia(60%)
+}
+
+
+
+#main{
+    color: darkblue;
+}
+
+#main:hover{
+    filter:blur(1px) sepia(60%);
+}
+
+
+
+
+#show{
+    color: #E10134;
+}
+
+#show:hover{
+    filter:blur(1px) sepia(60%);
+}
+
+
+
+#series{
+    color: orange;
+}
+
+#series:hover{
+    filter:blur(1px) sepia(60%)
+}
+
+
+
+#demonslayer.series{
+    height: 100px;
+    width: 100px;
+}
+
+#home{
+    color: #C9A0DC;
+}
+
+#home:hover{
+    filter:blur(1px) sepia(60%)
+}
+
+#Demonslayer_poster{
+    display: block;
+    margin: 0 auto;
+}
+
+ol{
+    display: flex;
+    flex-wrap:wrap;
+    gap: 15px;
+}
+
+
+ .hashira_table{
+    justify-content: center;
+    display: flex;
+    gap: 20px;
+    flex-wrap: wrap;
+ }
+
+
+
+
+
+
+
